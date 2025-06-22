@@ -24,6 +24,8 @@ def register(user_data: RegisterUser, session: Session = Depends(get_session)):
     token = create_access_token({"sub": str(user.id)})
     return {"access_token": token}
 
+    
+
 @router.post("/login", response_model=Token)
 def login(user_data: LoginUser, session: Session = Depends(get_session)):
     user = session.exec(select(User).where(User.email == user_data.email)).first()
