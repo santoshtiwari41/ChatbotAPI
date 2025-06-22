@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# VSCode and IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FAISS vectorstore (generated index files)
+vectorstore/
+
+# Logs
+*.log
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# Pytest
+.cache/
