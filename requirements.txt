@@ -1,9 +1,10 @@
 fastapi
 uvicorn
 langchain
-faiss-cpu
+langchain-community
+langchain-google-genai
+langchain-huggingface
+pydantic
 python-dotenv
-PyPDF2
-google-generativeai
-transformers
 sentence-transformers
+faiss-cpu
