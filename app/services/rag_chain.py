@@ -1,8 +1,10 @@
 import os
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatGoogleGenerativeAI
+
+
 
 from app.utils.loader import load_and_split_documents
 from app.core.config import settings
