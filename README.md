@@ -7,7 +7,7 @@ git clone https://github.com/santoshtiwari41/ChatbotAPI.git
 cd chatbotAPI
 ```
 
-### 2.change .example.env to .env
+### 2.Change .example.env to .env
 
 ### 3.Create and activate virtual enviroment
 
